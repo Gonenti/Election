@@ -60,7 +60,7 @@ contract Election
     mapping(address => bool) voters;
 
     /**
-    * @dev to check the presence of a candidate in the voting
+    * @dev Storage of candidates taking part in the voting
     */
     mapping(address => uint) candidates;
 
